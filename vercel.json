@@ -1,33 +1,33 @@
 {
   "functions": {
-    "api/chains/ethereum.py": {
+    "api/read/ethereum.py": {
       "maxDuration": 40
     },
-    "api/chains/base.py": {
+    "api/read/base.py": {
       "maxDuration": 40
     },
-    "api/chains/solana.py": {
+    "api/read/solana.py": {
       "maxDuration": 40
     },
-    "api/chains/ton.py": {
+    "api/read/ton.py": {
       "maxDuration": 40
     }
   },
   "crons": [
     {
-      "path": "/api/chains/ethereum",
+      "path": "/api/read/ethereum",
       "schedule": "* * * * *"
     },
     {
-      "path": "/api/chains/base",
+      "path": "/api/read/base",
       "schedule": "* * * * *"
     },
     {
-      "path": "/api/chains/solana",
+      "path": "/api/read/solana",
       "schedule": "* * * * *"
     },
     {
-      "path": "/api/chains/ton",
+      "path": "/api/read/ton",
       "schedule": "* * * * *"
     }
   ]
